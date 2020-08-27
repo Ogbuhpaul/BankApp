@@ -4,3 +4,62 @@ transfer,Tobi,2000,Testing,Ayo
 credit,Tobi,20000,,same as sender
 debit,Tobi,10000,,same as sender
 transfer,Tobi,2000,Testing,Ayo
+<class 'type'>,Tobi,20000,,same as sender
+<class 'type'>,Tobi,10000,,same as sender
+deposit,self,credit,20000,,same as sender
+withdrawal,self,debit,10000,,same as sender
+deposit,credit,20000,self,same as sender
+withdrawal,debit,10000,self,same as sender
+deposit,credit,20000,self.name,same as sender
+withdrawal,debit,10000,self.nameNo Comment,same as sender
+deposit,credit,20000,self.name,same as sender
+withdrawal,debit,10000,self.nameNo Comment,same as sender
+deposit,credit,20000,self.name,Same,
+withdrawal,debit,10000,self.name,Same,No Comment
+deposit,credit,20000,self.name,Same,
+withdrawal,debit,10000,self.name,Same,No Comment
+transfer,debit,2000,<__main__.Account object at 0x0000026EBE444CA0>,Same,Testing
+transfer,credit,2000,<__main__.Account object at 0x0000026EBE444CA0>,Same,Testing
+deposit,credit,20000,self.name,Same,
+withdrawal,debit,10000,self.name,Same,No Comment
+transfer,debit,2000,<__main__.Account object at 0x000001DC11FA4CA0>,Same,Flexing
+transfer,credit,2000,<__main__.Account object at 0x000001DC11FD2D60>,Same,Flexing
+deposit,credit,20000,self.name,Same,
+withdrawal,debit,10000,self.name,Same,No Comment
+transfer,debit,2000,<__main__.Account object at 0x00000158B27F4CA0>,Same,Flexing
+transfer,credit,2000,<__main__.Account object at 0x00000158B2822D60>,Same,Flexing
+deposit,credit,20000,self.name,Same,
+withdrawal,debit,10000,self.name,Same,No Comment
+transfer,debit,2000,<__main__.Account object at 0x0000018857A84CA0>,Same,Flexing
+transfer,credit,2000,<__main__.Account object at 0x0000018857AB2D60>,Same,Flexing
+deposit,credit,20000,self.name,Same,
+withdrawal,debit,10000,self.name,Same,No Comment
+transfer,debit,2000,<__main__.Account object at 0x0000015AE9E94CA0>,Same,Flexing
+transfer,credit,2000,<__main__.Account object at 0x0000015AE9EC2D60>,Same,Flexing
+deposit,credit,20000,self.name,Same,
+withdrawal,debit,10000,self.name,Same,No Comment
+transfer,debit,2000,<__main__.Account object at 0x0000019B8FD14CA0>,Same,Flexing
+transfer,credit,2000,<__main__.Account object at 0x0000019B8FD42D60>,Same,Flexing
+deposit,credit,20000,self.name,Same,
+withdrawal,debit,10000,self.name,Same,No Comment
+transfer,debit,2000,<__main__.Account object at 0x00000195D97B4CA0>,Same,Flexing
+transfer,credit,2000,Tobi,Same,Flexing
+deposit,credit,20000,self.name,Same,
+deposit,credit,20000,self.name,Same,
+deposit,credit,20000,Tobi,self.name,no comment
+deposit,credit,20000,Tobi,self.name,no comment
+withdrawal,debit,10000,Tobi,False,No Comment
+transfer,debit,2000,Tobi,<__main__.Account object at 0x000001DA4F3E4CA0>,Flexing
+transfer,credit,2000,Ayo,Tobi,Flexing
+deposit,credit,20000,Tobi,self.name,no comment
+withdrawal,debit,10000,Tobi,self.name,No Comment
+transfer,debit,2000,Tobi,<__main__.Account object at 0x000002574DDA4CA0>,Flexing
+transfer,credit,2000,Ayo,Tobi,Flexing
+deposit,credit,20000,Tobi,self.name,no comment
+withdrawal,debit,10000,Tobi,self.name,No Comment
+transfer,debit,2000,Tobi,<__main__.Account object at 0x000001E9FF444CA0>,Flexing
+transfer,credit,2000,Ayo,Tobi,Flexing
+deposit,credit,20000,Tobi,self.name,no comment
+withdrawal,debit,10000,Tobi,Tobi,No Comment
+transfer,debit,2000,Tobi,Ayo,Flexing
+transfer,credit,2000,Ayo,Tobi,Flexing
